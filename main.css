@@ -40,3 +40,34 @@
    margin-inline-start: 0px;
    margin-inline-end: 0px;
  }
+.navbar {
+   display: block;
+   float:right
+   width: 70%;
+   height: 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: calc(-5%vw);
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
